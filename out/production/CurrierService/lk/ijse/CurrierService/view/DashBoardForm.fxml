@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="760.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.CurrierService.controller.DashBoardFormController">
+   <children>
+      <Label alignment="CENTER" layoutY="26.0" prefHeight="47.0" prefWidth="1366.0" text="Supplier Form">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </Label>
+      <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="248.0" layoutY="160.0" onAction="#openAddForm" prefHeight="52.0" prefWidth="196.0" style="-fx-background-color: #1abc9c;" text="Add Form" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="955.0" layoutY="160.0" onAction="#openSearchForm" prefHeight="60.0" prefWidth="203.0" style="-fx-background-color: #9b59b6;" text="Search Form" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="585.0" layoutY="160.0" onAction="#openUpdateForm" prefHeight="60.0" prefWidth="216.0" style="-fx-background-color: #7abfff;" text="Update Form" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane fx:id="supplierFormContext" layoutY="244.0" prefHeight="523.0" prefWidth="1366.0" style="-fx-background-color: gray;" />
+   </children>
+</AnchorPane>

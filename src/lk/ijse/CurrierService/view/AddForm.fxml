@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="523.0" prefWidth="1366.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.CurrierService.controller.AddFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="-7.0" layoutY="24.0" prefHeight="56.0" prefWidth="1366.0" text="Add Form" textFill="#f8f3f3">
+         <font>
+            <Font name="System Bold" size="39.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtId" layoutX="446.0" layoutY="127.0" prefHeight="31.0" prefWidth="460.0" promptText="Id" />
+      <TextField fx:id="txtName" layoutX="444.0" layoutY="182.0" prefHeight="31.0" prefWidth="460.0" promptText="name" />
+      <TextField fx:id="txtEmail" layoutX="446.0" layoutY="237.0" prefHeight="31.0" prefWidth="460.0" promptText="email" />
+      <TextField fx:id="txtAge" layoutX="446.0" layoutY="296.0" prefHeight="31.0" prefWidth="460.0" promptText="age" />
+      <TextField fx:id="txtDob" layoutX="446.0" layoutY="366.0" prefHeight="31.0" prefWidth="460.0" promptText="dob" />
+      <TextField fx:id="txtSalary" layoutX="446.0" layoutY="430.0" prefHeight="31.0" prefWidth="460.0" promptText="salary" />
+   </children>
+</AnchorPane>
